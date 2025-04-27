@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: f1argocd
-  namespace: nginx
+  namespace: openshift-operators
 spec:
   to:
     kind: Service

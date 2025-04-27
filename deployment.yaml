@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: nginx
+  namespace: openshift-operators 
 spec:
   replicas: 1
   selector:
