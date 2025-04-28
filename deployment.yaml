@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bitnami/nginx:latest
+        image: komarkun/fe-dumbmerch
         ports:
-        - containerPort: 8080
+        - containerPort: 3000
