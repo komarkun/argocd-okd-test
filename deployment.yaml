@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: komarkun/fe-dumbmerch
+        image: komarkun/hono-my-app
         ports:
         - containerPort: 3000
